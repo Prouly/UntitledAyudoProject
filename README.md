@@ -39,4 +39,35 @@ Cuando `dev` y `des` están estables y jugables, se hace merge a `main` como nue
 - **Nunca** commitear directamente a `main`, `dev` ni `des`.
 - Hacer `pull` de tu rama base (`dev` o `des`) para evitar conflictos grandes.
 - Las ramas personales son cortas: se crean, se mergean y se borran.
-- Nombrar las ramas de forma descriptiva: `dev_vuestronombre_feature`.
+- Nombrar las ramas de forma descriptiva: `dev_nombre_feature`.
+
+---
+
+## Convención de commits
+
+Formato: `tipo: descripción breve en minúsculas`
+
+| Tipo | Cuándo usarlo |
+|------|---------------|
+| `feat:` | Nueva funcionalidad |
+| `fix:` | Corrección de un bug |
+| `art:` | Assets, sprites, audio, animaciones |
+| `ui:` | Cambios visuales de interfaz |
+| `refactor:` | Reorganización de código sin cambiar comportamiento |
+| `docs:` | Cambios en documentación |
+| `chore:` | Tareas de mantenimiento (gitignore, configuración…) |
+
+**Ejemplos:**
+```
+feat: añadir salto doble al jugador
+fix: corregir colisión con plataformas móviles
+art: añadir spritesheet del enemigo básico
+ui: ajustar posición del marcador de puntuación
+```
+
+**Reglas:**
+- Descripción en minúsculas y en infinitivo
+- Máximo 60 caracteres
+- Sin punto final
+
+---
