@@ -6,7 +6,7 @@
 |------|-----------|
 | `main` | Versiones jugables y estables. **Nadie toca esto directamente.** |
 | `dev` | Rama de integración. Todo el trabajo de desarrollo se fusiona aquí. |
-| `des` | Rama de integración para diseño. Assets, sprites, UI y animaciones. |
+| `art` | Rama de integración para diseño. Assets, sprites, UI y animaciones. |
 | `dev_nombre_feature` | Rama personal de cada desarrollador. |
 | `des_nombre_feature` | Rama personal de cada diseñador. |
 
@@ -28,9 +28,9 @@ git pull origin des
 git checkout -b des_tunombre_feature
 ```
 
-Cuando el trabajo está listo, se abre un **Pull Request** hacia `dev` o `des` según corresponda. Otra persona lo revisa antes de mergear.
+Cuando el trabajo está listo, se abre un **Pull Request** hacia `dev` o `art` según corresponda. Otra persona lo revisa antes de mergear.
 
-Cuando `dev` y `des` están estables y jugables, se hace merge a `main` como nuevo hito.
+Cuando `dev` y `art` están estables y jugables, se hace merge a `main` como nuevo hito.
 
 ---
 
