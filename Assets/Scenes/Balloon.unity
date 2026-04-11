@@ -374,8 +374,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetObject: {fileID: 1817302975}
   scaleIncrement: 0.5
-  pressesToPop: 20
-  timer: 5
+  pressesToPop: 15
+  timer: 7
 --- !u!4 &2146166264
 Transform:
   m_ObjectHideFlags: 0
